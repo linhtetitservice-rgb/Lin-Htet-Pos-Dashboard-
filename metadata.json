@@ -1,0 +1,6 @@
+{
+  "name": "ဆိုင်စာရင်း (Shop Manager)",
+  "description": "Myanmar retail store income/expense tracking, inventory restocking, monthly settlements, KPay & WavePay recording, and Telegram Bot reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:translateX="18"
+        android:translateY="18">
+        <!-- Store Canopy / Shop Front -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M5,16 L43,16 L45,23 L3,23 Z" />
+        <path
+            android:fillColor="#E0F2FE"
+            android:pathData="M3,23 L9,23 L9,27 C9,28.6 7.6,30 6,30 C4.4,30 3,28.6 3,27 Z
+                             M9,23 L15,23 L15,27 C15,28.6 13.6,30 12,30 C10.4,30 9,28.6 9,27 Z
+                             M15,23 L21,23 L21,27 C21,28.6 19.6,30 18,30 C16.4,30 15,28.6 15,27 Z
+                             M21,23 L27,23 L27,27 C27,28.6 25.6,30 24,30 C22.4,30 21,28.6 21,27 Z
+                             M27,23 L33,23 L33,27 C33,28.6 31.6,30 30,30 C28.4,30 27,28.6 27,27 Z
+                             M33,23 L39,23 L39,27 C39,28.6 37.6,30 36,30 C34.4,30 33,28.6 33,27 Z
+                             M39,23 L45,23 L45,27 C45,28.6 43.6,30 42,30 C40.4,30 39,28.6 39,27 Z" />
+        <!-- Shop Body & Counter -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M6,30 L6,42 C6,43.1 6.9,44 8,44 L40,44 C41.1,44 42,43.1 42,42 L42,30 Z" />
+        <!-- Inventory Box on Left -->
+        <path
+            android:fillColor="#0D9488"
+            android:pathData="M10,34 L22,34 L22,42 L10,42 Z" />
+        <path
+            android:fillColor="#CCFBF1"
+            android:pathData="M14,34 L18,34 L18,42 L14,42 Z" />
+        <!-- Cash / Card / Wallet on Right -->
+        <path
+            android:fillColor="#0F766E"
+            android:pathData="M26,33 L38,33 C39.1,33 40,33.9 40,35 L40,41 C40,42.1 39.1,43 38,43 L26,43 C24.9,43 24,42.1 24,41 L24,35 C24,33.9 24.9,33 26,33 Z" />
+        <path
+            android:fillColor="#FEF08A"
+            android:pathData="M31,36 A 2,2 0 1 0 31,40 A 2,2 0 1 0 31,36 Z" />
+    </group>
+</vector>
