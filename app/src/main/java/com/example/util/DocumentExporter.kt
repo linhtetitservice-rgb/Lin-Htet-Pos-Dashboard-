@@ -407,8 +407,12 @@ object DocumentExporter {
         val filename = "Statement_${monthLabel.replace(" ", "_")}_${System.currentTimeMillis()}.png"
         val pngFile = File(reportsDir, filename)
 
-        FileOutputStream(pngFile).use { out ->
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, out)
+        try {
+            FileOutputStream(pngFile).use { out ->
+                bitmap.compress(Bitmap.CompressFormat.PNG, 100, out)
+            }
+        } finally {
+            bitmap.recycle()
         }
 
         return pngFile
